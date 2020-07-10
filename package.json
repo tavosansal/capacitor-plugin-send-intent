@@ -1,0 +1,45 @@
+{
+  "name": "capacitor-plugin-send-intent",
+  "version": "0.0.1",
+  "description": "A capacitor plugin to be able to listen to send intents from within your Javascript application.",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Gustavo San Jose",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "typescript": "^3.2.4",
+    "@capacitor/android": "latest"
+  },
+  "files": [
+    "dist/",
+    "android/",
+    "CapacitorPluginSendIntent.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "android": {
+      "src": "android"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tavosansal/capacitor-plugin-send-intent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tavosansal/capacitor-plugin-send-intent.git/issues"
+  }
+}
