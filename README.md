@@ -17,10 +17,12 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- </p>  -->
 
-# Send Intent Plugin for Capacitor
+# Android Send Intent Plugin for Capacitor
 This plugin allows you to expose a listener in your Javascript application for when another application sends data to your Capacitor application via the Android share menu or share sheet. This is useful if your Android application would like to receive data from other apps and your app can handle the shared data.
 
 The `SendIntent` plugin exposes one event `appSendActionIntent` that receives a `data` object which contains the information received from the native intent verbatim. This is why you will see the keys for some of the objects are strange (i.e `android.intent.extra.TEXT`). However, this is intentional as it ensures compatibility with Android's contants for these values. 
+
+This plugin currently only supports Android.
 
 ## Maintainers
 
