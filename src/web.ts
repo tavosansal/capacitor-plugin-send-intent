@@ -1,16 +1,16 @@
 import { WebPlugin } from '@capacitor/core';
 import { SendIntentPlugin } from './definitions';
 
-export class SendIntentPluginWeb extends WebPlugin implements SendIntentPlugin {
+export class SendIntentWeb extends WebPlugin implements SendIntentPlugin {
   constructor() {
     super({
-      name: 'SendIntentPlugin',
+      name: 'SendIntent',
       platforms: ['web']
     });
   }
 }
 
-const SendIntent = new SendIntentPluginWeb();
+const SendIntent = new SendIntentWeb();
 
 export { SendIntent };
 

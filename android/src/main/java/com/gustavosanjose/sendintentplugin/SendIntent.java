@@ -10,7 +10,7 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 
 @NativePlugin()
-public class SendIntentPlugin extends Plugin {
+public class SendIntent extends Plugin {
 
     private static final String EVENT_SEND_ACTION_INTENT = "appSendActionIntent";
 
