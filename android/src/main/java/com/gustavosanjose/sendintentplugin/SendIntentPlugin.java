@@ -1,4 +1,7 @@
-package com.gustavosanjose.capacitorPluginSendIntent;
+package com.gustavosanjose.sendintentplugin;
+
+import android.content.Intent;
+import android.os.Bundle;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
